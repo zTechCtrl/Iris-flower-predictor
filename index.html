@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Iris Flower Predictor 🌸</h2>
+        <img src="flower.webp" alt="Fancy Flower" class="flower-image">
+        <input type="number" id="sepal_length" placeholder="Sepal Length" required>
+        <input type="number" id="sepal_width" placeholder="Sepal Width" required>
+        <input type="number" id="petal_length" placeholder="Petal Length" required>
+        <input type="number" id="petal_width" placeholder="Petal Width" required>
+        <button onclick="predictIris()">Predict</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
